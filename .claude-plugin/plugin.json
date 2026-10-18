@@ -1,0 +1,11 @@
+{
+  "name": "app-name-finder",
+  "displayName": "App Name Finder",
+  "version": "1.0.0",
+  "description": "Turns an app idea into a shortlist of brandable names, each with a domain that is actually available to register.",
+  "author": { "name": "Rafi" },
+  "homepage": "https://github.com/MuhammedAbduRafi/app-name-finder",
+  "repository": "https://github.com/MuhammedAbduRafi/app-name-finder",
+  "license": "MIT",
+  "keywords": ["naming", "branding", "domains", "startup", "rdap"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "app-name-finder",
+  "description": "App Name Finder: name your app and find an available domain.",
+  "owner": { "name": "Rafi" },
+  "plugins": [
+    {
+      "name": "app-name-finder",
+      "source": "./",
+      "description": "Turns an app idea into a shortlist of brandable names, each with a domain that is actually available to register."
+    }
+  ]
+}
