@@ -1,4 +1,4 @@
-<img src="assets/icon.png" alt="App Name Finder icon" width="96">
+![App Name Finder icon](assets/icon.png)
 
 # App Name Finder
 
