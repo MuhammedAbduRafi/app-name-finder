@@ -1,3 +1,5 @@
+<img src="assets/icon.png" alt="App Name Finder icon" width="96">
+
 # App Name Finder
 
 A Claude skill that turns an app idea into a shortlist of brandable names, each one paired with a domain you can actually register today.
@@ -49,7 +51,7 @@ The only data sent anywhere is the candidate domain names being checked. Request
 - the official RDAP server for each TLD checked, for example Verisign (`.com`, `.net`), Google Registry (`.app`, `.dev`) and Identity Digital (`.io`)
 - the DNS resolver configured on your machine, as a fallback signal
 
-On top of that, Claude may run ordinary web searches on finalist names to look for existing apps. There are no API keys, analytics or tracking, and nothing is stored.
+On top of that, Claude may run ordinary web searches on finalist names to look for existing apps. There are no API keys, analytics or tracking, and nothing is stored. Your app idea and conversation are never sent to these services. See the full [Privacy Policy](PRIVACY.md).
 
 ## Limitations
 

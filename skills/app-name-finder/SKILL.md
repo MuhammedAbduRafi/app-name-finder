@@ -45,10 +45,10 @@ Check the preferred TLD (default .com) for every survivor, plus 1–2 secondary 
 
 Use the first method that works:
 
-**A. Bundled script (best).** If you can run shell commands with network access, run the script in this skill's `scripts/` folder:
+**A. Bundled script (best).** If you can run shell commands with network access, run the bundled script (`${CLAUDE_SKILL_DIR}` is this skill's folder; if it isn't set, use the folder this SKILL.md is in):
 ```
-python scripts/check_domains.py --names name1,name2,name3 --tlds com,app,io
-python scripts/check_domains.py getname2.com name3app.com      # exact domains
+python3 ${CLAUDE_SKILL_DIR}/scripts/check_domains.py --names name1,name2,name3 --tlds com,app,io
+python3 ${CLAUDE_SKILL_DIR}/scripts/check_domains.py getname2.com name3app.com      # exact domains
 ```
 It asks each TLD's official registry via RDAP (the modern WHOIS) and prints TAKEN / AVAILABLE / UNKNOWN. Exit code 2 means it had no network at all — move to method B.
 
